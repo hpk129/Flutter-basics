@@ -3,9 +3,9 @@ import 'gradient_container.dart';
 
 void main(){ runApp(
       // const helps Dart optimize runtine performace
-        MaterialApp(
+        const MaterialApp(
         home: Scaffold(
-          body: GradientContainer(const Color(0xffd6ffaf), const Color(0xffecb0b0)),
+          body: GradientContainer(Color(0xffd6ffaf),  Color(0xffecb0b0)),
           //body: GradientContainer.purple(),
         ),
       ),
